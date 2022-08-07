@@ -1,0 +1,164 @@
+/* Media 577 px ---------------------------*/
+
+@media screen and (min-width:577px) {
+	.cooking-box {
+		margin: 20px;
+	}
+
+	.footer-box-b-form form textarea {
+		width: 100%;
+	}
+}
+
+/* Media 576 px ---------------------------*/
+@media screen and (max-width:576px) {
+	#main-wrapper {
+		grid-template-areas:
+			/* "header header header header header" */
+			"cover cover cover cover cover"
+			". menu menu menu ."
+			"cooking cooking cooking cooking cooking"
+			". team team team ."
+			"footer footer footer footer footer "
+		;
+	}
+
+	.cover-title h1 {
+		font-size: 3.5rem;
+	}
+
+	.menu-gallery {
+		display: flex;
+		flex-direction: column;
+	}
+
+	#cooking {
+		grid-area: cooking;
+		background-image: none;
+	}
+
+	.cooking-title {
+		margin: 0;
+	}
+
+	.cooking-box {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		align-items: center;
+		flex-wrap: wrap;
+	}
+
+	.cooking-text {
+		display: none;
+	}
+
+	.cooking-box-a {
+		max-width: 250px;
+	}
+
+	.cooking-box-b {
+		max-width: 250px;
+	}
+
+	.cooking-box-c {
+		max-width: 250px;
+	}
+
+	.team-title {
+		margin-top: 200px;
+	}
+
+	.team-boxs {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+
+	.footer-content {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.footer-box-b-form form textarea {
+		width: 44%;
+	}
+}
+
+
+
+
+
+/* Media 480 px ---------------------------*/
+@media screen and (max-width:480px) {
+	#main-wrapper {
+		grid-template-areas:
+			/* "header header header header header" */
+			"cover cover cover cover cover"
+			". menu menu menu ."
+			"cooking cooking cooking cooking cooking"
+			". team team team ."
+			"footer footer footer footer footer "
+		;
+	}
+
+	.cover-title h1 {
+		font-size: 3.5rem;
+	}
+
+	.menu-gallery {
+		display: flex;
+		flex-direction: column;
+	}
+
+	#cooking {
+		grid-area: cooking;
+		background-image: none;
+	}
+
+	.cooking-title {
+		margin: 0;
+	}
+
+	.cooking-box {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		align-items: center;
+		flex-wrap: wrap;
+	}
+
+	.cooking-text {
+		display: none;
+	}
+
+	.cooking-box-a {
+		max-width: 250px;
+	}
+
+	.cooking-box-b {
+		max-width: 250px;
+	}
+
+	.cooking-box-c {
+		max-width: 250px;
+	}
+
+	.team-title {
+		margin-top: 200px;
+	}
+
+	.team-boxs {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.footer-content {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.footer-box-b-form form textarea {
+		width: 53%;
+	}
+}
